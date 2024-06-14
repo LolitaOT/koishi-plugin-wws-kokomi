@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-wws-kokomi",
-  "description": "",
-  "version": "0.0.1",
+  "description": "战舰世界水表插件，简单调用了 kokomi 的接口",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,14 +9,32 @@
     "dist"
   ],
   "license": "MIT",
+  "contributors": [
+    "Abnes <lolitaot@outlook.com>"
+  ],
+  "homepage": "https://github.com/LolitaOT/koishi-plugin-wws-kokomi.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LolitaOT/koishi-plugin-wws-kokomi.git"
+  },
   "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "wws",
+    "wows",
+    "战舰世界",
+    "kkm",
+    "kokomi"
   ],
   "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.17.8"
+  },
+  "koishi": {
+    "service": {
+      "required": ["http"]
+    }
   }
 }
