@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-wws-kokomi",
   "description": "战舰世界水表插件，简单调用了 kokomi 的接口",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -30,7 +30,7 @@
   ],
   "devDependencies": {},
   "peerDependencies": {
-    "koishi": "^4.17.8"
+    "koishi": "^4.17.6"
   },
   "koishi": {
     "service": {
